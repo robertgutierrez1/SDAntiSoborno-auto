@@ -34,8 +34,6 @@ WebUI.delay(1)
 
 WebUI.setText(findTestObject('Formulario_Anonimo_SDA/input_Fecha()_fecha_presentada'), '12022019')
 
-not_run: WebUI.delay(3)
-
 not_run: WebUI.sendKeys(findTestObject('Formulario_Anonimo_SDA/input_Fecha()_fecha_presentada'), Keys.chord(Keys.NUMPAD1, 
         Keys.NUMPAD2, Keys.NUMPAD0, Keys.NUMPAD2, Keys.NUMPAD2, Keys.NUMPAD0, Keys.NUMPAD1, Keys.NUMPAD9))
 
