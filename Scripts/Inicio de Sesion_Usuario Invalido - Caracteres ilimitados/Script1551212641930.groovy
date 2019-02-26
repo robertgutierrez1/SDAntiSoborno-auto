@@ -17,17 +17,19 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.179.243:4200/')
 
-WebUI.click(findTestObject('Object Repository/Menu_SDA/Page_SDA/a_Iniciar Sesin'))
+WebUI.click(findTestObject('Object Repository/Caracteres_SDA/Page_SDA/a_Iniciar Sesin'))
 
-WebUI.setText(findTestObject('Object Repository/Menu_SDA/Page_SDA/input_CANAL DE DENUNCIAS ANTIS'), 'carlos.torres2')
+WebUI.setText(findTestObject('Object Repository/Caracteres_SDA/Page_SDA/input_CANAL DE DENUNCIAS ANTIS'), 'carloscarlostorrestorrescarloscarlostorrestorres')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Menu_SDA/Page_SDA/input_unmsm.edu.pe_form-contro'), '9McOUIL6o1J+BHwxUr++rg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Caracteres_SDA/Page_SDA/input_unmsm.edu.pe_form-contro'), '9McOUIL6o1J+BHwxUr++rg==')
 
-WebUI.click(findTestObject('Object Repository/Menu_SDA/Page_SDA/button_Iniciar Sesin'))
+WebUI.click(findTestObject('Object Repository/Caracteres_SDA/Page_SDA/button_Iniciar Sesin'))
 
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Menu_SDA/Page_SDA/button_Aceptar'))
+WebUI.click(findTestObject('Object Repository/Caracteres_SDA/Page_SDA/button_Aceptar'))
+
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 
