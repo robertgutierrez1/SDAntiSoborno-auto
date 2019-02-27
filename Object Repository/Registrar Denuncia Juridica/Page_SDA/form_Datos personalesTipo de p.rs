@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_Datos personalesTipo de p</name>
+   <tag></tag>
+   <elementGuidId>b7fade76-5a32-4b57-87ef-db7e89b0eacb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//form[@id='formulario']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>formulario</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-invalid ng-dirty ng-touched</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Datos personalesTipo de personaNaturalJurídicaRazón Social(*)RUC(*)DirecciónTélefono de contacto(*)Representante Legal(*)Correo Electrónico(*)Detalle de la denunciaHa sido denunciado esto antes? (*)SíNoLugar donde se presentó la denuncia(*)Fecha(*)Datos de los denunciadosNombres y ApellidosPuesto(s) de trabajoFacultad / DependenciaSeleccione1551 INCUBADORA DE EMPRESAS INNOVADORAS (1551)ALIANZA ESTRATÉGICAAUTOSEGURO DE ACCIDENTES PERSONALESBECA 18CENTRO CULTURALCENTRO DE IDIOMAS UNMSMCENTRO DE INFORMÁTICA UNMSMCENTRO DE INVESTIGACIÓN DE RECURSOS NATURALES (CIRNA)CENTRO DE PRODUCCIÓN E IMPRENTACENTRO PREUNIVERSITARIOCLINICA UNIVERSITARIACOLEGIO REALCOMISIONES PERMANENTESCONTROL PREVIO Y FISCALIZACIÓNDIRECCIÓN DE CENTROS DE DESARROLLO REGIONALDIRECCIÓN DEL FONDO EDITORIAL Y LIBRERIADIRECCIÓN DEL SISTEMA DE BIBLIOTECAS Y BIBLIOTECA CENTRALDIRECCIÓN GENERAL DE ADMINISTRACIÓNDIRECCIÓN GENERAL DE BIBLIOTECAS Y PUBLICACIONESDIRECCIÓN GENERAL DE ESTUDIOS DE POSGRADODIRECCIÓN GENERAL DE RESPONSABILIDAD SOCIALDIRECCIÓN GENERAL DE UNIDADES DESCONCENTRADASFUNDACIÓN SAN MARCOSINSTITUTO RAÚL PORRAS BARRENECHEAJARDINES BOTÁNICOS Y JARDÍN ECOLÓGICOJOVENES EMPRENDEDORESMUSEO DE HISTORIA NATURALOFICINA CENTRAL DE ADMISIÓNOFICINA CENTRAL DE CALIDAD ACADÉMICA Y ACREDITACIÓNOFICINA DE ABASTECIMIENTOOFICINA DE CONTABILIDADOFICINA DE EDUCACIÓN VIRTUAL UNMSMOFICINA DE SECRETARÍA GENERALOFICINA DE SEGURIDAD Y VIGILANCIAOFICINA DE TESORERÍAOFICINA DEL SISTEMA ÚNICO DE MATRÍCULAOFICINA GENERAL DE ASESORÍA LEGALOFICINA GENERAL DE BIENESTAR UNIVERSITARIOOFICINA GENERAL DE COOPERACIÓN Y RELACIONES INTERINSTITUCIONALESOFICINA GENERAL DE ECONOMÍAOFICINA GENERAL DE GESTIÓN DEL RIESGO Y ADAPTACIÓN AL CAMBIO CLIMÁTICOOFICINA GENERAL DE IMAGEN INSTITUCIONALOFICINA GENERAL DE INFRAESTRUCTURA UNIVERSITARIAOFICINA GENERAL DE PLANIFICACIÓNOFICINA GENERAL DE RECURSOS HUMANOS (PERSONAL)OFICINA GENERAL DE SERVICIOS GENERALES, OPERACIONES Y MANTENIMIENTOÓRGANO DE CONTROL INSTITUCIONALPROYECTO QUIPUCAMAYOCRADIO Y TELEVISIÓNRECTORADORED TELEMÁTICASEMINARIO DE HISTORIA RURAL ANDINASINDUSMUNIDAD DE FINCASVICERRECTORADO ACADÉMICO DE PREGRADOVICERRECTORADO DE INVESTIGACIÓN Y POSTGRADOFACULTAD DE CIENCIAS ADMINISTRATIVASFACULTAD DE CIENCIAS BIOLÓGICASFACULTAD DE CIENCIAS CONTABLESFACULTAD DE CIENCIAS ECONÓMICASFACULTAD DE CIENCIAS FÍSICASFACULTAD DE CIENCIAS MATEMÁTICASFACULTAD DE CIENCIAS SOCIALESFACULTAD DE DERECHO Y CIENCIAS POLÍTICASFACULTAD DE EDUCACIÓNFACULTAD DE FARMACIA Y BIOQUÍMICAFACULTAD DE ING. GEOLÓGICA, ING. GEOGRÁF, ING. METALÚRGICA E ING. DE MINASFACULTAD DE INGENIERÍA DE SISTEMAS E INFORMÁTICAFACULTAD DE INGENIERÍA ELECTRÓNICAFACULTAD DE INGENIERÍA INDUSTRIALFACULTAD DE LETRAS Y CIENCIAS HUMANASFACULTAD DE MEDICINA HUMANAFACULTAD DE MEDICINA VETERINARIAFACULTAD DE ODONTOLOGÍAFACULTAD DE PSICOLOGÍAFACULTAD DE QUÍMICA E ING. QUÍMICADatos de los hechosFecha de los hechos:Detalle lo sucedido(*)Contenido de las pruebasAdjuntar pruebaCompromiso En virtud al decreto legislativo N° 1327, que establece medidas de protección para el denunciante de actos de corrupción, sanciona las denuncias de actos de corrupción y sanciona las denuncias realizadas de mala fe, y su reglamento, aprobado por decreto supremo N° 010-2017-JUS.  En este marco normativo, declaro que toda información alcanzada se ajusta a la verdad y puede ser comprobada administrativamente de acuerdo sus atribuciones legales señaladas en la norma aplicable.  Estoy de acuerdo con el compromiso</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;formulario&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//form[@id='formulario']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FORMULARIO DE DENUNCIA'])[1]/following::form[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANAL DE DENUNCIAS ANTISOBORNO'])[1]/following::form[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//form</value>
+   </webElementXpaths>
+</WebElementEntity>

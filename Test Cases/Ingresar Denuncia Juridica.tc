@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Inicio de Sesion_Correcto - Letras Mayusculas</name>
+   <name>Ingresar Denuncia Juridica</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>9b7b8959-20b2-450c-82e3-86b07b948e3f</testCaseGuid>
+   <testCaseGuid>f0241b91-0d0c-4c9a-a7f5-5bf48e7d46a7</testCaseGuid>
 </TestCaseEntity>

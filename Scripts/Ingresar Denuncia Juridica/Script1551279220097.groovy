@@ -17,14 +17,9 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.179.243:4200/')
 
-WebUI.click(findTestObject('Object Repository/Login_SDA/Mayusculas_SDA/Page_SDA/a_Iniciar Sesin'))
+WebUI.click(findTestObject('Object Repository/Denuncia Juridica/Page_SDA/a_Realizar denuncia formal'))
 
-WebUI.setText(findTestObject('Object Repository/Login_SDA/Mayusculas_SDA/Page_SDA/input_CANAL DE DENUNCIAS ANTIS'), 'carlos.torres24')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login_SDA/Mayusculas_SDA/Page_SDA/input_unmsm.edu.pe_form-contro'), 
-    '9McOUIL6o1J+BHwxUr++rg==')
-
-WebUI.click(findTestObject('Object Repository/Login_SDA/Mayusculas_SDA/Page_SDA/button_Iniciar Sesin'))
+WebUI.delay(2)
 
 WebUI.closeBrowser()
 

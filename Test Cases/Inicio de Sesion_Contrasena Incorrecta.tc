@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Inicio de Sesion_Contrasena Incorrecta</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>cd0c1999-0a94-4ae7-a0e2-0b7798dcd6df</testCaseGuid>
-</TestCaseEntity>

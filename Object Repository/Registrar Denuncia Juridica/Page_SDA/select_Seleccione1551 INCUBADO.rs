@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Seleccione1551 INCUBADO</name>
+   <tag></tag>
+   <elementGuidId>25eb2b41-503e-4375-992b-38dad38c3eb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='sede']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-select ng-untouched ng-pristine ng-invalid</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>sede</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>lugar_trabajo_denunciado</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-reflect-name</name>
+      <type>Main</type>
+      <value>lugar_trabajo_denunciado</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Seleccione1551 INCUBADORA DE EMPRESAS INNOVADORAS (1551)ALIANZA ESTRATÉGICAAUTOSEGURO DE ACCIDENTES PERSONALESBECA 18CENTRO CULTURALCENTRO DE IDIOMAS UNMSMCENTRO DE INFORMÁTICA UNMSMCENTRO DE INVESTIGACIÓN DE RECURSOS NATURALES (CIRNA)CENTRO DE PRODUCCIÓN E IMPRENTACENTRO PREUNIVERSITARIOCLINICA UNIVERSITARIACOLEGIO REALCOMISIONES PERMANENTESCONTROL PREVIO Y FISCALIZACIÓNDIRECCIÓN DE CENTROS DE DESARROLLO REGIONALDIRECCIÓN DEL FONDO EDITORIAL Y LIBRERIADIRECCIÓN DEL SISTEMA DE BIBLIOTECAS Y BIBLIOTECA CENTRALDIRECCIÓN GENERAL DE ADMINISTRACIÓNDIRECCIÓN GENERAL DE BIBLIOTECAS Y PUBLICACIONESDIRECCIÓN GENERAL DE ESTUDIOS DE POSGRADODIRECCIÓN GENERAL DE RESPONSABILIDAD SOCIALDIRECCIÓN GENERAL DE UNIDADES DESCONCENTRADASFUNDACIÓN SAN MARCOSINSTITUTO RAÚL PORRAS BARRENECHEAJARDINES BOTÁNICOS Y JARDÍN ECOLÓGICOJOVENES EMPRENDEDORESMUSEO DE HISTORIA NATURALOFICINA CENTRAL DE ADMISIÓNOFICINA CENTRAL DE CALIDAD ACADÉMICA Y ACREDITACIÓNOFICINA DE ABASTECIMIENTOOFICINA DE CONTABILIDADOFICINA DE EDUCACIÓN VIRTUAL UNMSMOFICINA DE SECRETARÍA GENERALOFICINA DE SEGURIDAD Y VIGILANCIAOFICINA DE TESORERÍAOFICINA DEL SISTEMA ÚNICO DE MATRÍCULAOFICINA GENERAL DE ASESORÍA LEGALOFICINA GENERAL DE BIENESTAR UNIVERSITARIOOFICINA GENERAL DE COOPERACIÓN Y RELACIONES INTERINSTITUCIONALESOFICINA GENERAL DE ECONOMÍAOFICINA GENERAL DE GESTIÓN DEL RIESGO Y ADAPTACIÓN AL CAMBIO CLIMÁTICOOFICINA GENERAL DE IMAGEN INSTITUCIONALOFICINA GENERAL DE INFRAESTRUCTURA UNIVERSITARIAOFICINA GENERAL DE PLANIFICACIÓNOFICINA GENERAL DE RECURSOS HUMANOS (PERSONAL)OFICINA GENERAL DE SERVICIOS GENERALES, OPERACIONES Y MANTENIMIENTOÓRGANO DE CONTROL INSTITUCIONALPROYECTO QUIPUCAMAYOCRADIO Y TELEVISIÓNRECTORADORED TELEMÁTICASEMINARIO DE HISTORIA RURAL ANDINASINDUSMUNIDAD DE FINCASVICERRECTORADO ACADÉMICO DE PREGRADOVICERRECTORADO DE INVESTIGACIÓN Y POSTGRADOFACULTAD DE CIENCIAS ADMINISTRATIVASFACULTAD DE CIENCIAS BIOLÓGICASFACULTAD DE CIENCIAS CONTABLESFACULTAD DE CIENCIAS ECONÓMICASFACULTAD DE CIENCIAS FÍSICASFACULTAD DE CIENCIAS MATEMÁTICASFACULTAD DE CIENCIAS SOCIALESFACULTAD DE DERECHO Y CIENCIAS POLÍTICASFACULTAD DE EDUCACIÓNFACULTAD DE FARMACIA Y BIOQUÍMICAFACULTAD DE ING. GEOLÓGICA, ING. GEOGRÁF, ING. METALÚRGICA E ING. DE MINASFACULTAD DE INGENIERÍA DE SISTEMAS E INFORMÁTICAFACULTAD DE INGENIERÍA ELECTRÓNICAFACULTAD DE INGENIERÍA INDUSTRIALFACULTAD DE LETRAS Y CIENCIAS HUMANASFACULTAD DE MEDICINA HUMANAFACULTAD DE MEDICINA VETERINARIAFACULTAD DE ODONTOLOGÍAFACULTAD DE PSICOLOGÍAFACULTAD DE QUÍMICA E ING. QUÍMICA</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sede&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <value>//select[@id='sede']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <value>//form[@id='formulario']/div[6]/div[3]/div[3]/select</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Facultad / Dependencia'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Puesto(s) de trabajo'])[1]/following::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Datos de los hechos'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fecha de los hechos:'])[1]/preceding::select[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//select</value>
+   </webElementXpaths>
+</WebElementEntity>
