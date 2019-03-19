@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Inicio de Sesion_Usuario Invalido - Caracteres ilimitados</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>1726e6bd-7d67-4494-8738-8cc67a160ce6</testCaseGuid>
-</TestCaseEntity>
