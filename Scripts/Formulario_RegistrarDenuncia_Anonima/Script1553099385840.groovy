@@ -27,11 +27,11 @@ WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_No_enti
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Ejm rgano de Control Ins'), '15/04/2018')
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/span_Lugar de trabajo del denu'))
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/span_RADIO Y TELEVISIN'))
-
-WebUI.delay(2)
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_El campo es obligatorio_'), 'Carlos Rodriguez')
 
@@ -41,11 +41,9 @@ WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/textarea_Deta
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Fecha de los hechos_fech'), '15/08/2017')
 
-WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/span_Seleccionar Archivo'))
-
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Contenido de la prueba_p'), 'Imagenes reveladoras')
-
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/label_Estoy de acuerdo con el'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Estoy de acuerdo con el'))
 
