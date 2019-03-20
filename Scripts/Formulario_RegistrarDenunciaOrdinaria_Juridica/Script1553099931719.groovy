@@ -15,70 +15,47 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://172.16.179.243:4201/formulario/natural')
+WebUI.navigateToUrl('http://172.16.179.243:4201/formulario/juridica')
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/label_Jurdica'))
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Razn Social()_razon_soci'), 'Melinna SAC')
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_Razn Social()_razon_soci'), 
-    'Melinna SAC')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_RUC ()_ruc_persona'), '10730084701')
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_RUC ()_ruc_persona'), 
-    '20730084701')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Direccin_dir_persona'), 'Jr Jorge Chavez 038')
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_Direccin_dir_persona'), 
-    'Jr German Amenazaga 345')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Tlefono de contacto()_te'), '980630721')
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_Tlefono de contacto()_te'), 
-    '980630721')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Representante Legal()_re'), 'Carlos Rodriguez')
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_Representante Legal()_re'), 
-    'Carlos Rodriguez')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Correo Electrnico()_corr'), 'melinna.rojas@unmsm.edu.pe')
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_Correo Electrnico()_corr'), 
-    'melinna.rojas@unmsm.edu.pe')
+WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/label_S'))
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/label_S'))
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_No_entidad_presentada'), 'Organo de control institucional')
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/div_En qu lugar fue denunciado'))
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Ejm rgano de Control Ins'), '15/04/2018')
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_No_entidad_presentada'), 
-    'Organo de Control Institucional')
+WebUI.delay(2)
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/div_Fecha de esa denuncia'))
+WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/span_Lugar de trabajo del denu'))
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_El campo es obligatorio_'), 
-    '15/04/2018')
+WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/span_FACULTAD DE INGENIERA DE'))
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/span_Lugar de trabajo del denu'))
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_El campo es obligatorio_'), 'Melinna Rojas')
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/span_BECA 18'))
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Opcional_puesto_denuncia'), 'Decana')
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/div_Nombres Completos'))
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/textarea_Detalle lo sucedido ('), 'Detalle para hacer pruebas wuwuwuwuw')
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/input_El campo es obligatorio_'), 'Carlos Chikorita Rodriguez')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Fecha de los hechos_fech'), '15/09/2018')
 
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_vlido._puesto_denunciado'), 
-    'Docente')
+WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/label_Estoy de acuerdo con el'))
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/div_Detalle lo sucedido ()_mat'))
+WebUI.delay(1)
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/div_Fecha de los hechos_mat-fo'))
+WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Estoy de acuerdo con el'))
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/div_14'))
-
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/span_Seleccionar Archivo'))
-
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/textarea_Detalle lo sucedido ('), 
-    'Esta denuncia es para pruebas de SQA uwwu')
-
-WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_Contenido de las pruebas'), 
-    'Documento de pruebas')
-
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/label_Estoy de acuerdo con el'))
-
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/input_Estoy de acuerdo con el'))
-
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaJuridica/button_Aceptar'))
+WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/button_Aceptar'))
 
 WebUI.closeBrowser()
 

@@ -31,6 +31,8 @@ WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/span_Lugar de t
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/span_RADIO Y TELEVISIN'))
 
+WebUI.delay(2)
+
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_El campo es obligatorio_'), 'Carlos Rodriguez')
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Opcional_puesto_denuncia'), 'Radio')
