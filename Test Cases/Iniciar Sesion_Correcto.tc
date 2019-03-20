@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>El usuario ingresa al sistema correctamente digitando su usuario y contraseña.</description>
-   <name>Iniciar Sesion_Correcto</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>6788f8a9-3bc6-441c-8edb-93200f9e3ade</testCaseGuid>
-</TestCaseEntity>
