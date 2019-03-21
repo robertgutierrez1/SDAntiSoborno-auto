@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Estoy de acuerdo con el</name>
    <tag></tag>
-   <elementGuidId>efa0d1ab-f241-4465-aadd-1166551cee46</elementGuidId>
+   <elementGuidId>38d96f0b-e96b-4b98-bec5-2ead4f242c54</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -63,7 +63,7 @@
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='El texto introducido es demasiado corto.'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Describa brevemente el archivo adjunto'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

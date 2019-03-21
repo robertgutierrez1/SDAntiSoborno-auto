@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Representante Legal()_re</name>
    <tag></tag>
-   <elementGuidId>09eccd51-7aa9-4b7c-aa2b-0b8d588010cc</elementGuidId>
+   <elementGuidId>90513b0f-0228-44d0-a65a-ce3d593b41d7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

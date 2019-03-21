@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Direccin_dir_persona</name>
    <tag></tag>
-   <elementGuidId>44c417e4-f669-444c-8401-b85ea83a698f</elementGuidId>
+   <elementGuidId>1c6df7e0-3582-437d-aaed-3863931dff6a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -80,7 +80,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>j</value>
+      <value>J</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

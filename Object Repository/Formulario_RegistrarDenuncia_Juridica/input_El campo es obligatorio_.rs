@@ -3,7 +3,7 @@
    <description></description>
    <name>input_El campo es obligatorio_</name>
    <tag></tag>
-   <elementGuidId>54a03e6d-51a5-4840-bac4-b152f3f7553b</elementGuidId>
+   <elementGuidId>a99d56be-56ab-43bc-a44b-1219321a2e23</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -87,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>M</value>
+      <value>C</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

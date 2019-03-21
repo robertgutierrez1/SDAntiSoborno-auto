@@ -3,7 +3,7 @@
    <description></description>
    <name>input_RUC ()_ruc_persona</name>
    <tag></tag>
-   <elementGuidId>9557107f-001e-4a32-a829-54a695850f1f</elementGuidId>
+   <elementGuidId>7ebc7610-0f01-4f8a-93da-96e196300faf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

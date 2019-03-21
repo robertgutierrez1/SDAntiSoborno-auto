@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Correo Electrnico()_corr</name>
    <tag></tag>
-   <elementGuidId>adc4050f-0f3c-4405-b7c7-806565467dab</elementGuidId>
+   <elementGuidId>5a59246f-20b7-467e-abcb-97696c01bea8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -87,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>m</value>
+      <value>c</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

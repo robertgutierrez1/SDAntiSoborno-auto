@@ -3,7 +3,7 @@
    <description></description>
    <name>label_S</name>
    <tag></tag>
-   <elementGuidId>7ca549df-8891-4351-a618-34222ede8fc7</elementGuidId>
+   <elementGuidId>29a39a26-d94c-481c-9eb3-5d177fd4930b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

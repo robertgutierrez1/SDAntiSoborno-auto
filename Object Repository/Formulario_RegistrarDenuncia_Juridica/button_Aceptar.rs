@@ -3,7 +3,7 @@
    <description></description>
    <name>button_Aceptar</name>
    <tag></tag>
-   <elementGuidId>4e5cfcba-bc4b-43fe-b3ff-e97cfe4c2554</elementGuidId>
+   <elementGuidId>2f35e2bd-8ec9-44b1-98f4-89633d4fff60</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

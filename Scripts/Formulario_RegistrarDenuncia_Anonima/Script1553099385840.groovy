@@ -19,8 +19,10 @@ WebUI.navigateToUrl('http://172.16.179.243:4201/formulario/anonima')
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Datos personales_correo_'), 'melinna.rojas@unmsm.edu.pe')
 
+'Se eligió "No" para que el sistema no lo confunda con el siguiente RadioButton'
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/label_No'))
 
+'Se elegió "Sí" para que se activen dos campos.'
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/label_S'))
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_No_entidad_presentada'), 'Organo de Control Institucional')
@@ -29,9 +31,10 @@ WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Ejm rga
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/span_Lugar de trabajo del denu'))
 
+'Para elegir otro se tendría que cambiar el nombre de span(Estan en la carpeta)'
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/Span_LugardeTrabajo/span_CENTRO PREUNIVERSITARIO'))
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_El campo es obligatorio_'), 'Carlos Rodrgieuz')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_El campo es obligatorio_'), 'Carlos Rodriguez')
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Opcional_puesto_denuncia'), 'Docente')
 
@@ -41,10 +44,12 @@ WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Fecha d
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/label_Estoy de acuerdo con el'))
 
-WebUI.delay(2)
+'Delay para que valide los campos'
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Estoy de acuerdo con el'))
 
+'Delay para que identifique después la ventana emergente'
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/button_Aceptar'))

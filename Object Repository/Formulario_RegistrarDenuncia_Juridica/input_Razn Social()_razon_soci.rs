@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Razn Social()_razon_soci</name>
    <tag></tag>
-   <elementGuidId>45a8c315-16b0-4e8e-8211-faff1ab8823e</elementGuidId>
+   <elementGuidId>214ef1ee-30c9-442b-a5fe-b79caaeb27e3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

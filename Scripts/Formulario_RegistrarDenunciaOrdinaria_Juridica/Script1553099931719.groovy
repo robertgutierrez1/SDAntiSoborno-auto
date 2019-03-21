@@ -23,37 +23,37 @@ WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_RUC ()
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Direccin_dir_persona'), 'Jr Jorge Chavez 038')
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Tlefono de contacto()_te'), '980630721')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Tlefono de contacto()_te'), '920842827')
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Representante Legal()_re'), 'Carlos Rodriguez')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Representante Legal()_re'), 'Carlex Ro')
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Correo Electrnico()_corr'), 'melinna.rojas@unmsm.edu.pe')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Correo Electrnico()_corr'), 'carlos.rodriguez47@unmsm.edu.pe')
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/label_S'))
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_No_entidad_presentada'), 'Organo de control institucional')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_No_entidad_presentada'), 'Organo de control INstitucional')
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Ejm rgano de Control Ins'), '15/04/2018')
-
-WebUI.delay(2)
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Ejm rgano de Control Ins'), '15/04/2017')
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/span_Lugar de trabajo del denu'))
 
-WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/span_FACULTAD DE INGENIERA DE'))
+WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/span_ALIANZA ESTRATGICA'))
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_El campo es obligatorio_'), 'Melinna Rojas')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_El campo es obligatorio_'), 'Carlos Rodriguez')
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Opcional_puesto_denuncia'), 'Decana')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Opcional_puesto_denuncia'), 'Jefe')
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/textarea_Detalle lo sucedido ('), 'Detalle para hacer pruebas wuwuwuwuw')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/textarea_Detalle lo sucedido ('), 'Elige a los CAS según su conveniencia y cobra')
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Fecha de los hechos_fech'), '15/09/2018')
+WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Fecha de los hechos_fech'), '15/04/2018')
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/label_Estoy de acuerdo con el'))
 
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Estoy de acuerdo con el'))
+
+WebUI.delay(1)
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/button_Aceptar'))
 
