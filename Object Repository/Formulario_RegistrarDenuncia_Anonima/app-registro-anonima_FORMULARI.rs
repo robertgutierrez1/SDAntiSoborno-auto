@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>app-registro-anonima_FORMULARI</name>
+   <tag></tag>
+   <elementGuidId>b80dd7b0-8959-4053-b279-343798679da4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='CANAL DE DENUNCIAS ANTISOBORNO'])[1]/following::app-registro-anonima[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>app-registro-anonima</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-star-inserted</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> FORMULARIO DE DENUNCIA Datos personalesCorreo Electrónico *Se le enviará un correo electrónico con el código de la denuncia.26/60¿Usted trabaja en la UNMSM? (*)SíNoDetalle de la denuncia¿Ha sido denunciado esto antes? (*)SíNo¿En qué lugar fue denunciado? *Ejm: Órgano de Control InstitucionalFecha de esa denuncia *(01/01/2017 - Hoy)Datos de los denunciados A continuación mencionará a la(s) persona(s) implicadas en la denuncia. El lugar de trabajo del denunciado es importante, por lo tanto, colocarlo es obligatorio. En caso de que no se acuerde del nombre o puesto de trabajo del mismo, obvíe esos campos. Implicado #1 CENTRO PREUNIVERSITARIOLugar de trabajo del denunciado *El campo es obligatorioNombres CompletosOpcional0/50Puesto de trabajoOpcional0/30Añadir otro denunciado Implicado #2 Lugar de trabajo del denunciadoLugar de trabajo del denunciadoEl campo es obligatorio.Nombres CompletosOpcional0/50Puesto de trabajoOpcional0/30EliminarAñadir otro denunciado Implicado #3 Lugar de trabajo del denunciadoLugar de trabajo del denunciadoEl campo es obligatorio.Nombres CompletosOpcional0/50Puesto de trabajoOpcional0/30EliminarAñadir otro denunciadoDatos de los hechos En ésta sección, usted detallará los hechos, la fecha y opcionalmente podrá añadir 1(uno) archivo probatorio (Imagen, Audio o Video) que corrobore la denuncia. El archivo no pesará mas de 20mb, si tiene más de un archivo probatorio los podrá mostrar más adelante con la entidad respectiva.Detalle lo sucedido (*):Éste campo es obligatorio*0/2000Fecha de los hechos:(01/01/2017 - Hoy)Adjuntar prueba:Seleccionar Archivo Ningún archivo seleccionado.Contenido de la prueba:El archivo contiene...Describa brevemente el archivo adjunto0/150 Compromiso  En virtud al decreto legislativo N° 1327, que establece medidas de protección para el denunciante de actos de corrupción y sanciona las denuncias realizadas de mala fe, y su reglamento, aprobado por decreto supremo N° 010-2017-JUS.  En este marco normativo, declaro que toda información alcanzada se ajusta a la verdad y puede ser comprobada administrativamente de acuerdo a sus atribuciones legales señaladas en la norma aplicable.  Estoy de acuerdo con el compromisoAviso Ingrese un archivo de imagen o vídeo. Aceptar Subiendo archivo... No cierre la ventanaAviso Gracias por realizar esta denuncia. Aceptar</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/div[@class=&quot;pageContentWrapper&quot;]/app-root[1]/app-registro-anonima[@class=&quot;ng-star-inserted&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CANAL DE DENUNCIAS ANTISOBORNO'])[1]/following::app-registro-anonima[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <value>//app-registro-anonima</value>
+   </webElementXpaths>
+</WebElementEntity>

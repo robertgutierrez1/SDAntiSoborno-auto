@@ -38,6 +38,8 @@ WebUI.setText(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_Denun
 
 WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaNatural/label_S'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaNatural/label_S'))
 
 WebUI.click(findTestObject('Acceso_RegistrarDenunciaOrdinaria/Formulario_DenunciaNatural/div_En qu lugar fue denunciado'))

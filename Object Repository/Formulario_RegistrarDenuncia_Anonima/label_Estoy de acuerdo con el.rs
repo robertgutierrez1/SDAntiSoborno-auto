@@ -3,7 +3,7 @@
    <description></description>
    <name>label_Estoy de acuerdo con el</name>
    <tag></tag>
-   <elementGuidId>dab86e86-9e32-4a20-af18-0e7be591dcc2</elementGuidId>
+   <elementGuidId>2fdb816d-64b3-400d-b7bb-eb9d9a01c413</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

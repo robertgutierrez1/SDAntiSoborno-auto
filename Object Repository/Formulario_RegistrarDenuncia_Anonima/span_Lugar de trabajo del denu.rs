@@ -3,7 +3,7 @@
    <description></description>
    <name>span_Lugar de trabajo del denu</name>
    <tag></tag>
-   <elementGuidId>27067f08-e526-4216-87f6-f8bd6acc470c</elementGuidId>
+   <elementGuidId>cc1ac542-4af2-454b-9921-ff03cf61b2ae</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

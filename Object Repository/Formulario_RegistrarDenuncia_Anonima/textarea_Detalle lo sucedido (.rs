@@ -3,7 +3,7 @@
    <description></description>
    <name>textarea_Detalle lo sucedido (</name>
    <tag></tag>
-   <elementGuidId>9b8e6e47-aaa9-4a7a-b7e3-87165d36009b</elementGuidId>
+   <elementGuidId>dab1f950-7943-4fa9-99c3-56c38a0203c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -122,7 +122,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>E</value>
+      <value>C</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

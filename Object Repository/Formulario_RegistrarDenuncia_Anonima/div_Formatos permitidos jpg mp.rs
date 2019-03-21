@@ -3,7 +3,7 @@
    <description></description>
    <name>div_Formatos permitidos jpg mp</name>
    <tag></tag>
-   <elementGuidId>1f544e5d-8f04-407b-ab1f-3b68c99d5b89</elementGuidId>
+   <elementGuidId>dd96d2bc-5e87-4ca0-8057-a24f4da547bb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

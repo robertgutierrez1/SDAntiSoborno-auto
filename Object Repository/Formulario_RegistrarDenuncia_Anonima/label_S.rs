@@ -3,11 +3,11 @@
    <description></description>
    <name>label_S</name>
    <tag></tag>
-   <elementGuidId>9fcd7c37-f3e1-4ec0-965b-7b4acfd198ea</elementGuidId>
+   <elementGuidId>37972212-2d45-4070-b6ac-91ecf41d7893</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='formulario']/div[2]/div[5]/div/label</value>
+         <value>//form[@id='formulario']/div[4]/div[3]/div/label</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -31,7 +31,7 @@
       <matchCondition>equals</matchCondition>
       <name>for</name>
       <type>Main</type>
-      <value>siTrabaja</value>
+      <value>siDenuncio</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,36 +51,36 @@
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='formulario']/div[2]/div[5]/div/label</value>
+      <value>//form[@id='formulario']/div[4]/div[3]/div/label</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Usted trabaja en la UNMSM? (*)'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Ha sido denunciado esto antes? (*)'])[1]/following::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Se le enviará un correo electrónico con el código de la denuncia.'])[1]/following::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detalle de la denuncia'])[1]/following::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[1]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::label[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detalle de la denuncia'])[1]/preceding::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿En qué lugar fue denunciado?'])[1]/preceding::label[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[5]/div/label</value>
+      <value>//div[3]/div/label</value>
    </webElementXpaths>
 </WebElementEntity>

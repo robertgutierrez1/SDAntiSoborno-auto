@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Opcional_puesto_denuncia</name>
    <tag></tag>
-   <elementGuidId>f1208f97-5627-4e77-86b6-5c8b3a61021a</elementGuidId>
+   <elementGuidId>bf3ff79d-351d-45b0-96fa-96b0cd6a6f4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -87,7 +87,7 @@
       <matchCondition>equals</matchCondition>
       <name>ng-reflect-model</name>
       <type>Main</type>
-      <value>d</value>
+      <value>D</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

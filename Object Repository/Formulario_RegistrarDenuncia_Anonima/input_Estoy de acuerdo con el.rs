@@ -3,7 +3,7 @@
    <description></description>
    <name>input_Estoy de acuerdo con el</name>
    <tag></tag>
-   <elementGuidId>bec9e3cd-ddec-4109-b2a4-3f08d519d549</elementGuidId>
+   <elementGuidId>3429b34a-5111-41b1-88b6-b66281ebe4c8</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>

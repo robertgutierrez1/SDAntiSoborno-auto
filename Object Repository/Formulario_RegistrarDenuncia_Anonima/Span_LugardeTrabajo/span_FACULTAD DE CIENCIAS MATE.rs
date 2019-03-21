@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>label_S (1)</name>
+   <name>span_FACULTAD DE CIENCIAS MATE</name>
    <tag></tag>
-   <elementGuidId>cc37a990-94d5-4d40-82ff-e955313f6d82</elementGuidId>
+   <elementGuidId>ce0c5143-8f94-4924-b480-177c619e276c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//form[@id='formulario']/div[4]/div[3]/div/label</value>
+         <value>(//mat-option[@id='sede1']/span)[62]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -17,70 +17,63 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>custom-control-label</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>for</name>
-      <type>Main</type>
-      <value>siDenuncio</value>
+      <value>mat-option-text</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Sí</value>
+      <value> FACULTAD DE CIENCIAS MATEMÁTICAS </value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;formulario&quot;)/div[@class=&quot;row justify-content-center align-items-center&quot;]/div[@class=&quot;col-md-2 text-center&quot;]/div[@class=&quot;custom-control custom-radio custom-control-inline&quot;]/label[@class=&quot;custom-control-label&quot;]</value>
+      <value>id(&quot;cdk-overlay-1&quot;)/div[@class=&quot;ng-trigger ng-trigger-transformPanel ng-tns-c7-6 mat-select-panel mat-primary ng-star-inserted&quot;]/mat-option[@id=&quot;sede1&quot;]/span[@class=&quot;mat-option-text&quot;]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
-      <value>//form[@id='formulario']/div[4]/div[3]/div/label</value>
+      <value>(//mat-option[@id='sede1']/span)[62]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿Ha sido denunciado esto antes? (*)'])[1]/following::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FACULTAD DE CIENCIAS FÍSICAS'])[1]/following::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Detalle de la denuncia'])[1]/following::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FACULTAD DE CIENCIAS ECONÓMICAS'])[1]/following::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='No'])[2]/preceding::label[1]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FACULTAD DE CIENCIAS SOCIALES'])[1]/preceding::span[1]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='¿En qué lugar fue denunciado?'])[1]/preceding::label[2]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FACULTAD DE DERECHO Y CIENCIAS POLÍTICAS'])[1]/preceding::span[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
-      <value>//div[3]/div/label</value>
+      <value>//mat-option[62]/span</value>
    </webElementXpaths>
 </WebElementEntity>
