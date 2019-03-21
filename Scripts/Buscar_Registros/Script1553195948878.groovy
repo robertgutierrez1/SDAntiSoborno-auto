@@ -17,5 +17,7 @@ WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_
 
 WebUI.setText(findTestObject('Buscar_Denuncia/input_REGISTRO DE DENUNCIAS_ma'), 'beca')
 
+WebUI.delay(2)
+
 WebUI.closeBrowser()
 
