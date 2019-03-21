@@ -13,9 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('http://172.16.179.243:4201/formulario/anonima')
+WebUI.callTestCase(findTestCase('Ingresar_RegistrarDenunciaAnonima'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Datos personales_correo_'), 'melinna.rojas@unmsm.edu.pe')
 

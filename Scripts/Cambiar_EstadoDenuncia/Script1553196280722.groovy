@@ -12,13 +12,17 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://172.16.179.243:4201/')
+WebUI.click(findTestObject('Cambiar_EstadoDenuncia/button'))
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaAnonima/a_Realizar denuncia annima'))
+WebUI.delay(1)
 
-not_run: WebUI.closeBrowser()
+'Editar los inputs para otros estados, ya que no son span\'s'
+WebUI.selectOptionByValue(findTestObject('Cambiar_EstadoDenuncia/select_RecepcionadoEn ProcesoP'), 'En Proceso', true)
+
+WebUI.click(findTestObject('Cambiar_EstadoDenuncia/input_Cancelar_btn btn-success'))
+
+WebUI.closeBrowser()
 

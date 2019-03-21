@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Ingresar_RegistrarDenunciaOrdinaria'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://172.16.179.243:4201/formulario/natural')
+WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Natural/label_Natural'))
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Natural/Campo_DNI/div_D.N.I.'))
 
