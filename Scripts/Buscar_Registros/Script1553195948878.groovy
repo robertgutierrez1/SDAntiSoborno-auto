@@ -12,13 +12,12 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://172.16.179.243:4201/')
+WebUI.setText(findTestObject('Buscar_Denuncia/input_REGISTRO DE DENUNCIAS_ma'), 'beca')
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaAnonima/a_Realizar denuncia annima'))
+WebUI.delay(2)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

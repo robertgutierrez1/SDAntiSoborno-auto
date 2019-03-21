@@ -13,9 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser('')
+WebUI.callTestCase(findTestCase('Ingresar_RegistrarDenunciaOrdinaria'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.navigateToUrl('http://172.16.179.243:4201/formulario/juridica')
+WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/label_Jurdica'))
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Razn Social()_razon_soci'), 'Melinna SAC')
 
@@ -49,10 +49,12 @@ WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Fecha 
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/label_Estoy de acuerdo con el'))
 
+'Delay para futura validación'
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/input_Estoy de acuerdo con el'))
 
+'Delay para que aparezca la ventana emergente'
 WebUI.delay(1)
 
 WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Juridica/button_Aceptar'))
