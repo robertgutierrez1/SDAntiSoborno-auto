@@ -15,10 +15,13 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Cambiar la palabra "Beca" de ser necesario'
-WebUI.setText(findTestObject('DetalleDenuncia/Buscar_Denuncia/input_REGISTRO DE DENUNCIAS_ma'), 'beca')
+WebUI.click(findTestObject('DetalleDenuncia/Paginacion_ListadoDeDenuncias/button_Buscar..._siguiente'))
 
-WebUI.delay(2)
+WebUI.delay(1)
+
+WebUI.click(findTestObject('DetalleDenuncia/Paginacion_ListadoDeDenuncias/button_Buscar..._anterior'))
+
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 

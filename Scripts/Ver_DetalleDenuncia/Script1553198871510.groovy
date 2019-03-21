@@ -15,10 +15,10 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Cambiar la palabra "Beca" de ser necesario'
-WebUI.setText(findTestObject('DetalleDenuncia/Buscar_Denuncia/input_REGISTRO DE DENUNCIAS_ma'), 'beca')
+WebUI.click(findTestObject('DetalleDenuncia/Ver_Detalle/a_Recepcionado_button'))
 
-WebUI.delay(2)
+'Se debe abrir en otra pantalla la denuncia.'
+WebUI.delay(4)
 
-WebUI.closeBrowser()
+not_run: WebUI.closeBrowser()
 

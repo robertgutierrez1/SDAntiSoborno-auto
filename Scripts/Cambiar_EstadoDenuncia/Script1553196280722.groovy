@@ -15,14 +15,14 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Cambiar_EstadoDenuncia/button'))
+WebUI.click(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/button'))
 
 WebUI.delay(1)
 
 'Editar los inputs para otros estados, ya que no son span\'s'
-WebUI.selectOptionByValue(findTestObject('Cambiar_EstadoDenuncia/select_RecepcionadoEn ProcesoP'), 'En Proceso', true)
+WebUI.selectOptionByValue(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/select_RecepcionadoEn ProcesoP'), 'En Proceso', true)
 
-WebUI.click(findTestObject('Cambiar_EstadoDenuncia/input_Cancelar_btn btn-success'))
+WebUI.click(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/input_Cancelar_btn btn-success'))
 
 WebUI.closeBrowser()
 

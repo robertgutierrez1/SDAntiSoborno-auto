@@ -13,10 +13,10 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Ver_DetalleDenuncia'), [:], FailureHandling.STOP_ON_FAILURE)
 
-'Cambiar la palabra "Beca" de ser necesario'
-WebUI.setText(findTestObject('DetalleDenuncia/Buscar_Denuncia/input_REGISTRO DE DENUNCIAS_ma'), 'beca')
+'Botón que te descarga la denuncia'
+WebUI.click(findTestObject('DetalleDenuncia/Ver_Detalle/button_Recepcionado_btn btn-lg'))
 
 WebUI.delay(2)
 
