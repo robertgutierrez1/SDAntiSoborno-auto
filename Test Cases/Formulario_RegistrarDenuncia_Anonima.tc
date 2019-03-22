@@ -5,4 +5,53 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>7ff8e6b7-7ccc-4fb7-b169-c91d455e6b09</testCaseGuid>
+   <variable>
+      <defaultValue>'melinna.rojas@unmsm.edu.pe'</defaultValue>
+      <description></description>
+      <id>00a012ba-2438-4294-b35f-764cf5976c8c</id>
+      <masked>false</masked>
+      <name>email_an</name>
+   </variable>
+   <variable>
+      <defaultValue>'Organo de Control Institucional'</defaultValue>
+      <description></description>
+      <id>5eac46af-3b85-4508-b442-a6776660c2bb</id>
+      <masked>false</masked>
+      <name>lugar_an</name>
+   </variable>
+   <variable>
+      <defaultValue>'15/04/2017'</defaultValue>
+      <description></description>
+      <id>941c26ea-cbe0-4c0f-ab88-eb1bf631e7bf</id>
+      <masked>false</masked>
+      <name>fechaPast_an</name>
+   </variable>
+   <variable>
+      <defaultValue>'Carlos Rodriguez'</defaultValue>
+      <description></description>
+      <id>9282dbc3-f8a7-49bc-827c-240ef3c4c1aa</id>
+      <masked>false</masked>
+      <name>implicado_an</name>
+   </variable>
+   <variable>
+      <defaultValue>'Docente'</defaultValue>
+      <description></description>
+      <id>6d500011-23a9-4778-a3b9-b97b32ca57a4</id>
+      <masked>false</masked>
+      <name>puesto_an</name>
+   </variable>
+   <variable>
+      <defaultValue>'Cobros excesivos por parte de este docente inescrupoloso'</defaultValue>
+      <description></description>
+      <id>4a3ba092-105a-49b1-83d5-fba9b1fe5662</id>
+      <masked>false</masked>
+      <name>detalle_an</name>
+   </variable>
+   <variable>
+      <defaultValue>'15/04/2018'</defaultValue>
+      <description></description>
+      <id>9f1da40c-183d-435e-adcf-1847902cebed</id>
+      <masked>false</masked>
+      <name>fechaPresent_an</name>
+   </variable>
 </TestCaseEntity>
