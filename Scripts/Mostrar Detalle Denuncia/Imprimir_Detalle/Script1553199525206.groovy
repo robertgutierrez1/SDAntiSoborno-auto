@@ -13,12 +13,12 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Mostrar Detalle Denuncia/Ver_DetalleDenuncia'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('DetalleDenuncia/Ver_Detalle/a_Recepcionado_button'))
+'Botón que te descarga la denuncia'
+WebUI.click(findTestObject('DetalleDenuncia/Ver_Detalle/button_Recepcionado_btn btn-lg'))
 
-'Se debe abrir en otra pantalla la denuncia.'
-WebUI.delay(4)
+WebUI.delay(2)
 
-not_run: WebUI.closeBrowser()
+WebUI.closeBrowser()
 

@@ -13,16 +13,15 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Iniciar Sesion/Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/button'))
+WebUI.click(findTestObject('DetalleDenuncia/Paginacion_ListadoDeDenuncias/button_Buscar..._siguiente'))
 
 WebUI.delay(1)
 
-'Editar los inputs para otros estados, ya que no son span\'s'
-WebUI.selectOptionByValue(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/select_RecepcionadoEn ProcesoP'), 'En Proceso', true)
+WebUI.click(findTestObject('DetalleDenuncia/Paginacion_ListadoDeDenuncias/button_Buscar..._anterior'))
 
-WebUI.click(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/input_Cancelar_btn btn-success'))
+WebUI.delay(1)
 
 WebUI.closeBrowser()
 

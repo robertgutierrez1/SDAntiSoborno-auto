@@ -13,7 +13,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Ingresar_RegistrarDenunciaAnonima'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Registrar Denuncia/Denuncia Anonima/Ingresar_RegistrarDenunciaAnonima'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Datos personales_correo_'), email_an)
 

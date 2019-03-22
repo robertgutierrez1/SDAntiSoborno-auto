@@ -13,15 +13,9 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Iniciar Sesion/Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('DetalleDenuncia/Paginacion_ListadoDeDenuncias/button_Buscar..._siguiente'))
-
-WebUI.delay(1)
-
-WebUI.click(findTestObject('DetalleDenuncia/Paginacion_ListadoDeDenuncias/button_Buscar..._anterior'))
-
-WebUI.delay(1)
+WebUI.click(findTestObject('Cerrar_Sesion/a_Logout'))
 
 WebUI.closeBrowser()
 

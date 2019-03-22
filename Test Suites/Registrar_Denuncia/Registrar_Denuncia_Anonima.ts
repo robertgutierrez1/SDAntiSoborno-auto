@@ -14,7 +14,7 @@
       <guid>c2937bd0-4891-4658-8755-0afae52fee36</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Formulario_RegistrarDenuncia_Anonima</testCaseId>
+      <testCaseId>Test Cases/Registrar Denuncia/Denuncia Anonima/Formulario_RegistrarDenuncia_Anonima</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>3476c74f-da7b-4501-95fc-40b173d50070</id>
