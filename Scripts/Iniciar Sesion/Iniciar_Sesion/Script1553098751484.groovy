@@ -19,9 +19,9 @@ WebUI.navigateToUrl('http://172.16.179.243:4201/')
 
 WebUI.click(findTestObject('Iniciar_Sesion/a_Iniciar Sesin'))
 
-WebUI.setText(findTestObject('Iniciar_Sesion/input_CANAL DE DENUNCIAS ANTIS'), 'carlos.torres24')
+WebUI.setText(findTestObject('Iniciar_Sesion/input_CANAL DE DENUNCIAS ANTIS'), user)
 
-WebUI.setEncryptedText(findTestObject('Iniciar_Sesion/input_unmsm.edu.pe_campoContra'), '9McOUIL6o1J+BHwxUr++rg==')
+WebUI.setText(findTestObject('Iniciar_Sesion/input_unmsm.edu.pe_campoContra'), password)
 
 WebUI.click(findTestObject('Iniciar_Sesion/button_Iniciar Sesin'))
 
