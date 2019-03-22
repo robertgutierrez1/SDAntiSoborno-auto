@@ -15,42 +15,42 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Registrar Denuncia/Denuncia Anonima/Ingresar_RegistrarDenunciaAnonima'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Datos personales_correo_'), email_an)
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/input_Datos personales_correo_'), email_an)
 
 'Se eligió "No" para que el sistema no lo confunda con el siguiente RadioButton'
-WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/label_No'))
+WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/label_No'))
 
 'Se elegió "Sí" para que se activen dos campos.'
-WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/label_S'))
+WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/label_S'))
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_No_entidad_presentada'), lugar_an)
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/input_No_entidad_presentada'), lugar_an)
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Ejm rgano de Control Ins'), fechaPast_an)
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/input_Ejm rgano de Control Ins'), fechaPast_an)
 
-WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/span_Lugar de trabajo del denu'))
+WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/span_Lugar de trabajo del denu'))
 
 'Para elegir otro se tendría que cambiar el nombre de span(Estan en la carpeta)'
-WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/Span_LugardeTrabajo/span_CENTRO PREUNIVERSITARIO'))
+WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/Span_LugardeTrabajo/span_CENTRO PREUNIVERSITARIO'))
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_El campo es obligatorio_'), implicado_an)
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/input_El campo es obligatorio_'), implicado_an)
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Opcional_puesto_denuncia'), puesto_an)
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/input_Opcional_puesto_denuncia'), puesto_an)
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/textarea_Detalle lo sucedido ('), detalle_an)
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/textarea_Detalle lo sucedido ('), detalle_an)
 
-WebUI.setText(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Fecha de los hechos_fech'), fechaPresent_an)
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/input_Fecha de los hechos_fech'), fechaPresent_an)
 
-WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/label_Estoy de acuerdo con el'))
+WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/label_Estoy de acuerdo con el'))
 
 'Delay para que valide los campos'
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/input_Estoy de acuerdo con el'))
+WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/input_Estoy de acuerdo con el'))
 
 'Delay para que identifique después la ventana emergente'
 WebUI.delay(1)
 
-WebUI.click(findTestObject('Formulario_RegistrarDenuncia_Anonima/button_Aceptar'))
+WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Anonima/button_Aceptar'))
 
 WebUI.closeBrowser()
 

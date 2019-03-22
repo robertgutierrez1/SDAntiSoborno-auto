@@ -15,7 +15,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('Iniciar Sesion/Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Cerrar_Sesion/a_Logout'))
+WebUI.click(findTestObject('Iniciar Sesion/Cerrar_Sesion/a_Logout'))
 
 WebUI.closeBrowser()
 

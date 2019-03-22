@@ -18,7 +18,7 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('http://172.16.179.243:4201/')
 
-WebUI.click(findTestObject('Acceso_RegistrarDenunciaAnonima/a_Realizar denuncia annima'))
+WebUI.click(findTestObject('Registrar Denuncia/Acceso_RegistrarDenunciaAnonima/a_Realizar denuncia annima'))
 
 not_run: WebUI.closeBrowser()
 
