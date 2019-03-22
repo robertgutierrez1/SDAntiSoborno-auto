@@ -5,4 +5,88 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a49e6051-9814-4d63-aeab-90a5c3a839d4</testCaseGuid>
+   <variable>
+      <defaultValue>'MELINNA SAC'</defaultValue>
+      <description></description>
+      <id>3333ce3f-f60f-4d2d-b34b-602dccba5ab0</id>
+      <masked>false</masked>
+      <name>razonSocial_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'10730083701'</defaultValue>
+      <description></description>
+      <id>a10898ef-58c7-4bd6-9f36-7caa5721138e</id>
+      <masked>false</masked>
+      <name>ruc_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'Jr German Amezaga 456'</defaultValue>
+      <description></description>
+      <id>b49c249a-8774-4f2c-a55b-6f28ad16b49c</id>
+      <masked>false</masked>
+      <name>direccion_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'987654234'</defaultValue>
+      <description></description>
+      <id>8dedd31d-cd85-4b68-936f-d7930a7aeae1</id>
+      <masked>false</masked>
+      <name>telefono_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'Carl Le Ro'</defaultValue>
+      <description></description>
+      <id>51ca1355-7174-4353-b9ec-d47a6af40b90</id>
+      <masked>false</masked>
+      <name>representanteL_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'melinna.rojas@unmsm.edu.pe'</defaultValue>
+      <description></description>
+      <id>d276d981-9d72-4833-9959-9acaea98e615</id>
+      <masked>false</masked>
+      <name>correo_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'Organo de Control Institucional'</defaultValue>
+      <description></description>
+      <id>1e72bf01-3c4c-4137-9097-c8cd9a0d2fe9</id>
+      <masked>false</masked>
+      <name>entidad_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'15/04/2017'</defaultValue>
+      <description></description>
+      <id>5a59947a-1717-4dc7-8d3a-af668b0525a1</id>
+      <masked>false</masked>
+      <name>fechasPast_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'Carlos Rodriguez'</defaultValue>
+      <description></description>
+      <id>ef3e82be-9bbb-4e37-b9b7-5a5c0cfaec2d</id>
+      <masked>false</masked>
+      <name>implicado_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'WatchMan'</defaultValue>
+      <description></description>
+      <id>134f3149-0c00-4fbd-96fe-a47f4f7c3f09</id>
+      <masked>false</masked>
+      <name>puesto_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'El señor cobraba coimas por ingresar a la UNMSM'</defaultValue>
+      <description></description>
+      <id>937d143e-d1fb-4ea2-8c6b-4598a3a46e31</id>
+      <masked>false</masked>
+      <name>detalle_j</name>
+   </variable>
+   <variable>
+      <defaultValue>'15/04/2018'</defaultValue>
+      <description></description>
+      <id>de3c02b9-f793-4004-8ab3-7c8df3856e81</id>
+      <masked>false</masked>
+      <name>fechaPresent_j</name>
+   </variable>
 </TestCaseEntity>

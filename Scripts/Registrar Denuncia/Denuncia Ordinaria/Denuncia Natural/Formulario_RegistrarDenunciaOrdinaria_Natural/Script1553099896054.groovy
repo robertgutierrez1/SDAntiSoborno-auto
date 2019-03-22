@@ -22,24 +22,29 @@ WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natu
 'Cambiar por span_Carnet de extranjera de ser necesario.'
 WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/Campo_DNI/span_D.N.I.'))
 
-'Cambiar por otro número'
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Seleccione_dni_persona'), '73008470')
+'Cambiar por otro número, si se cambio a Carnet de Extranjeria'
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Seleccione_dni_persona'), dni_nat)
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Nombres y Apellidos ()_n'), 'Melinna Rojas Camargo')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Nombres y Apellidos ()_n'), 
+    nombres_nat)
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Direccin de Vivienda_dir'), 'Jr. Jorge Chavez 038')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Direccin de Vivienda_dir'), 
+    domicilio_nat)
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Tlefono de contacto ()_t'), '980630721')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Tlefono de contacto ()_t'), 
+    telefono_nat)
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Correo electrnico ()_cor'), 'melinna.rojas@unmsm.edu.pe')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Correo electrnico ()_cor'), 
+    correo_nat)
 
 WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/label_No'))
 
 WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/label_S'))
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_No_entidad_presentada'), 'Organo de Control Institucional')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_No_entidad_presentada'), lugarPast_nat)
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Ejm rgano de Control Ins'), '15/04/2017')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Ejm rgano de Control Ins'), 
+    fechaPast_nat)
 
 WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/span_Lugar de trabajo del denu'))
 
@@ -48,13 +53,17 @@ WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natu
 
 WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/div_Nombres Completos'))
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_El campo es obligatorio_'), 'Carlos Rodriguez')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_El campo es obligatorio_'), 
+    implicado_nat)
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Opcional_puesto_denuncia'), 'Docente')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Opcional_puesto_denuncia'), 
+    puesto_nat)
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/textarea_Detalle lo sucedido ('), 'Docente inescrupuloso roba becas 18')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/textarea_Detalle lo sucedido ('), 
+    detalle_nat)
 
-WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Fecha de los hechos_fech'), '15/04/2018')
+WebUI.setText(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/input_Fecha de los hechos_fech'), 
+    fechaPresent_nat)
 
 WebUI.click(findTestObject('Registrar Denuncia/Formulario_RegistrarDenuncia_Natural/label_Estoy de acuerdo con el'))
 

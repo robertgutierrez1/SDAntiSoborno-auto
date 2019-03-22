@@ -19,4 +19,67 @@
       <masked>false</masked>
       <name>nombres_nat</name>
    </variable>
+   <variable>
+      <defaultValue>'Jr. German Amezaga 567'</defaultValue>
+      <description></description>
+      <id>d528a105-7cc9-489a-8361-4709bea1b782</id>
+      <masked>false</masked>
+      <name>domicilio_nat</name>
+   </variable>
+   <variable>
+      <defaultValue>'980630721'</defaultValue>
+      <description></description>
+      <id>a2166866-24c7-4b1e-b162-430b909522df</id>
+      <masked>false</masked>
+      <name>telefono_nat</name>
+   </variable>
+   <variable>
+      <defaultValue>'carlos.rodriguez47@unmsm.edu.pe'</defaultValue>
+      <description></description>
+      <id>b3306247-d20f-45ee-9078-ed10782c75d1</id>
+      <masked>false</masked>
+      <name>correo_nat</name>
+   </variable>
+   <variable>
+      <defaultValue>'Organo de Control Institucional'</defaultValue>
+      <description></description>
+      <id>8e60ee8a-bfea-42c0-a7d9-499640d7faa8</id>
+      <masked>false</masked>
+      <name>lugarPast_nat</name>
+   </variable>
+   <variable>
+      <defaultValue>'15/04/2017'</defaultValue>
+      <description></description>
+      <id>128c9a0e-5c16-40f7-8f22-3131da80a65a</id>
+      <masked>false</masked>
+      <name>fechaPast_nat</name>
+   </variable>
+   <variable>
+      <defaultValue>'Carlos Rodriguez'</defaultValue>
+      <description></description>
+      <id>a47a75a4-b960-4856-a6db-72fe59b11d78</id>
+      <masked>false</masked>
+      <name>implicado_nat</name>
+   </variable>
+   <variable>
+      <defaultValue>'Docente'</defaultValue>
+      <description></description>
+      <id>2385a29a-9681-4fb4-a464-bf1486d539b0</id>
+      <masked>false</masked>
+      <name>puesto_nat</name>
+   </variable>
+   <variable>
+      <defaultValue>'Docente inescrupuloso roba a mano armada y pide coima, horror.'</defaultValue>
+      <description></description>
+      <id>78f63c20-603b-4b49-aac2-ba8f70ca3969</id>
+      <masked>false</masked>
+      <name>detalle_nat</name>
+   </variable>
+   <variable>
+      <defaultValue>'15/04/2018'</defaultValue>
+      <description></description>
+      <id>b4e8538a-ed50-4e65-9521-0099534c8af9</id>
+      <masked>false</masked>
+      <name>fechaPresent_nat</name>
+   </variable>
 </TestCaseEntity>

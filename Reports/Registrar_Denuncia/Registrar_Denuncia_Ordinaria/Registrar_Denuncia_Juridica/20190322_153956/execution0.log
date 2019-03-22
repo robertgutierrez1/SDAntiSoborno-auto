@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199493</millis>
+  <sequence>0</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startSuite</method>
+  <thread>1</thread>
+  <message>Start Test Suite : Test Suites/Registrar_Denuncia/Registrar_Denuncia_Ordinaria/Registrar_Denuncia_Juridica</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="name">Registrar_Denuncia_Juridica</property>
+  <property name="description"></property>
+  <property name="id">Test Suites/Registrar_Denuncia/Registrar_Denuncia_Ordinaria/Registrar_Denuncia_Juridica</property>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199515</millis>
+  <sequence>1</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostName = Melinna - 172.16.214.46</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostName">Melinna - 172.16.214.46</property>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199516</millis>
+  <sequence>2</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>os = Windows 8.1 64bit</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="os">Windows 8.1 64bit</property>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199517</millis>
+  <sequence>3</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>hostAddress = 172.16.214.46</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="hostAddress">172.16.214.46</property>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199518</millis>
+  <sequence>4</sequence>
+  <level>RUN_DATA</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>katalonVersion = 6.0.5.4</message>
+  <nestedLevel>0</nestedLevel>
+  <property name="katalonVersion">6.0.5.4</property>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199805</millis>
+  <sequence>5</sequence>
+  <level>START</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>startTest</method>
+  <thread>1</thread>
+  <message>Start Test Case : Test Cases/Registrar Denuncia/Denuncia Ordinaria/Denuncia Juridica/Formulario_RegistrarDenunciaOrdinaria_Juridica</message>
+  <nestedLevel>1</nestedLevel>
+  <property name="name">Test Cases/Registrar Denuncia/Denuncia Ordinaria/Denuncia Juridica/Formulario_RegistrarDenunciaOrdinaria_Juridica</property>
+  <property name="description"></property>
+  <property name="id">Test Cases/Registrar Denuncia/Denuncia Ordinaria/Denuncia Juridica/Formulario_RegistrarDenunciaOrdinaria_Juridica</property>
+  <property name="source">C:\\Users\\Melinna\\Katalon Studio\\SDAntiSoborno-auto\\Test Cases\\Registrar Denuncia\\Denuncia Ordinaria\\Denuncia Juridica\\Formulario_RegistrarDenunciaOrdinaria_Juridica.tc</property>
+  <property name="isOptional">false</property>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199864</millis>
+  <sequence>7</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>razonSocial_j = Quipucamayoc SAC</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199880</millis>
+  <sequence>8</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>ruc_j = 20324321654</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199881</millis>
+  <sequence>9</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>direccion_j = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199882</millis>
+  <sequence>10</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>telefono_j = 940970099</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199882</millis>
+  <sequence>11</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>representanteL_j = Melinna Rojas</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199882</millis>
+  <sequence>12</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>correo_j = atencion.quipu@unmsm.edu.pe</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199882</millis>
+  <sequence>13</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>entidad_j = Rectorado UNMSM</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199882</millis>
+  <sequence>14</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>fechasPast_j = 17/2/2019</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199882</millis>
+  <sequence>15</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>implicado_j = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199882</millis>
+  <sequence>16</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>puesto_j = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199890</millis>
+  <sequence>17</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>detalle_j = Actos de corrupcion a plena luz del d\u00EDa,el denunciado ofrece trabajos a cambio de cierta cantidad de dinero</message>
+  <nestedLevel>1</nestedLevel>
+</record>
+<record>
+  <date>2019-03-22T15:39:59</date>
+  <millis>1553287199890</millis>
+  <sequence>18</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>1</thread>
+  <message>fechaPresent_j = </message>
+  <nestedLevel>1</nestedLevel>
+</record>
