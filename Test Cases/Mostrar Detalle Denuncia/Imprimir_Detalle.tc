@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>eb774c2c-6305-46da-bc5b-45e108d08e19</testCaseGuid>
+   <variable>
+      <defaultValue>'Archivado'</defaultValue>
+      <description></description>
+      <id>9443dde6-b75f-4d94-9d24-16ac737c4628</id>
+      <masked>false</masked>
+      <name>estado_imprimir</name>
+   </variable>
 </TestCaseEntity>

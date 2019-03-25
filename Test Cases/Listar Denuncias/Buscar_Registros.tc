@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>bda894d9-082a-4134-943e-2c7f773f37df</testCaseGuid>
+   <variable>
+      <defaultValue>'beca'</defaultValue>
+      <description></description>
+      <id>4ed120c6-ed9c-4e98-a6a4-def139bdf575</id>
+      <masked>false</masked>
+      <name>buscador</name>
+   </variable>
 </TestCaseEntity>

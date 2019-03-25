@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>759e7fe2-c30c-4cf1-b07c-b70e0b43659b</testCaseGuid>
+   <variable>
+      <defaultValue>'Archivado'</defaultValue>
+      <description></description>
+      <id>f89d2b32-f9cf-48eb-bd7c-f1d96653c424</id>
+      <masked>false</masked>
+      <name>estado</name>
+   </variable>
 </TestCaseEntity>

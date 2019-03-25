@@ -16,8 +16,11 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Mostrar Detalle Denuncia/Ver_DetalleDenuncia'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Botón que te descarga la denuncia'
-WebUI.click(findTestObject('DetalleDenuncia/Ver_Detalle/button_Recepcionado_btn btn-lg'))
 
+
+if(findTestObject('DetalleDenuncia/Ver_Detalle/Imprimir_Detalle/button_'+estado_imprimir+'_btn btn-lg btn-primary mr-1')){
+	WebUI.click(findTestObject('DetalleDenuncia/Ver_Detalle/Imprimir_Detalle/button_'+estado_imprimir+'_btn btn-lg btn-primary mr-1'))
+}
 WebUI.delay(2)
 
 WebUI.closeBrowser()
