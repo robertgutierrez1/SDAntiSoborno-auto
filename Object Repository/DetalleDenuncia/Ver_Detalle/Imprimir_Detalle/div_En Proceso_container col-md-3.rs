@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='todo']/div[4]/div/div[3]</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +31,7 @@
       <value>container col-md-3</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>

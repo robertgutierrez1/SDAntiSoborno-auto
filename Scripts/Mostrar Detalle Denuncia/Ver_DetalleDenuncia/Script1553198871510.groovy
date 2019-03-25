@@ -16,9 +16,12 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.callTestCase(findTestCase('Iniciar Sesion/Iniciar_Sesion'), [:], FailureHandling.STOP_ON_FAILURE)
 
 
-if(findTestObject('DetalleDenuncia/Ver_Detalle/a_'+estado+'_button')){
+flag = WebUI.verifyElementVisible(findTestObject('DetalleDenuncia/Ver_Detalle/a_'+estado+'_button'))
+if(flag){
 	WebUI.click(findTestObject('DetalleDenuncia/Ver_Detalle/a_'+estado+'_button'))
-}
+}else{
+	WebUI.closeBrowser()
+	}
 'Se debe abrir en otra pantalla la denuncia.'
 WebUI.delay(4)
 

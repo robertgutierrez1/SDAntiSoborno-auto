@@ -9,8 +9,12 @@
          <key>XPATH</key>
          <value>//div[@id='todo']/div[6]/button</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -27,7 +31,7 @@
       <value>btn btn-lg btn-primary mr-1</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
