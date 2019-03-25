@@ -19,8 +19,50 @@ WebUI.click(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/button'))
 
 WebUI.delay(1)
 
-'Editar los inputs para otros estados, ya que no son span\'s'
-WebUI.selectOptionByValue(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/select_RecepcionadoEn ProcesoP'), 'En Proceso', true)
+//Extraigo el texto para saber en que estado estaba
+text = WebUI.getText(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/select_RecepcionadoEn ProcesoPendienteArchivadoConcluido'))
+
+WebUI.selectOptionByIndex(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/select_RecepcionadoEn ProcesoPendienteArchivadoConcluido'), 
+    variable, FailureHandling.STOP_ON_FAILURE)
+
+switch (variable) {
+    case 0:
+        // Caso Recepcionado
+        if ((text == 'En Proceso') || (text == 'Pendiente')) {
+			WebUI.delay(1);
+            WebUI.click(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/button_S'))
+        }
+        
+        break
+    case 1:
+        // Caso En Proceso
+        if (text == 'Pendiente') {
+			WebUI.delay(1);
+			WebUI.click(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/button_S'))
+        }
+        
+        break
+    case 2:
+        //Caso Pendiente
+        break
+    case 3:
+        //Caso Archivado
+        WebUI.delay(1)
+
+        WebUI.setText(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/textarea_'+text+'_motivo_cambio_estado'), 
+            'Por motivos personales')
+
+        break
+    case 4:
+        //Caso Concluido
+		WebUI.delay(1)
+        WebUI.setText(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/textarea_'+text+'_motivo_cambio_estado'), 
+            'Ya se resolvio la denuncia')
+
+        break
+}
+
+WebUI.delay(2)
 
 WebUI.click(findTestObject('DetalleDenuncia/Cambiar_EstadoDenuncia/input_Cancelar_btn btn-success'))
 
