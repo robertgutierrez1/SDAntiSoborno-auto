@@ -17,11 +17,12 @@ WebUI.callTestCase(findTestCase('Mostrar Detalle Denuncia/Ver_DetalleDenuncia'),
 
 'Botón que te descarga la denuncia'
 
-
 if(findTestObject('DetalleDenuncia/Ver_Detalle/Imprimir_Detalle/button_'+estado_imprimir+'_btn btn-lg btn-primary mr-1')){
 	WebUI.click(findTestObject('DetalleDenuncia/Ver_Detalle/Imprimir_Detalle/button_'+estado_imprimir+'_btn btn-lg btn-primary mr-1'))
-}
-WebUI.delay(2)
+}else{
+	texto = WebUI.getText(findTestObject('DetalleDenuncia/Ver_Detalle/Imprimir_Detalle/Button/div_+'+estado_imprimir+'_container col-md-3'))
+	WebUI.click(findTestObject('DetalleDenuncia/Ver_Detalle/Imprimir_Detalle/Button/button_'+texto+'_btn btn-lg btn-primary mr-1'))
+	}
 
 WebUI.closeBrowser()
 
